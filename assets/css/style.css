@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-color: #deddc8;
+}
+
+header {
+    background-color: black;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: crosshair;
+}
+
+div {
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+}
+
+.bolaMerah {
+    background-color: red;
+    border-radius: 100%;
+}
+
+.bolaKuning {
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.bolaHijau {
+    background-color: green;
+    border-radius: 100%;
+}
+
+.container {
+    width: 70%;
+    padding: 10px 20px 20px;
+    margin: 0px auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.bolaMerah:active, .bolaKuning:active, .bolaHijau:active {
+    background-color: black;
+}
