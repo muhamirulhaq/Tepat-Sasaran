@@ -73,23 +73,23 @@ function scoreBolaKuning() {
     
     audio.play();
 
-    if(newScore < 10) {
+    if(newScore < 20) {
         marq.setAttribute("scrollamount", "12");
         marq2.setAttribute("scrollamount", "10");
         marq3.setAttribute("scrollamount", "14");
-    } else if(newScore >= 10 && newScore < 20) {
+    } else if(newScore >= 20 && newScore < 40) {
         marq.setAttribute("scrollamount", "18");
         marq2.setAttribute("scrollamount", "20");
         marq3.setAttribute("scrollamount", "16");
-    } else if(newScore >= 20 && newScore < 30) {
+    } else if(newScore >= 40 && newScore < 70) {
         marq.setAttribute("scrollamount", "26");
         marq2.setAttribute("scrollamount", "22");
         marq3.setAttribute("scrollamount", "24");
-    } else if(newScore >= 20 && newScore < 30) {
+    } else if(newScore >= 70 && newScore < 80) {
         marq.setAttribute("scrollamount", "30");
         marq2.setAttribute("scrollamount", "28");
         marq3.setAttribute("scrollamount", "32");
-    } else if(newScore >= 30 && newScore < 40) {
+    } else if(newScore >= 80 && newScore < 100) {
         marq.setAttribute("scrollamount", "36");
         marq2.setAttribute("scrollamount", "38");
         marq3.setAttribute("scrollamount", "34");
@@ -117,23 +117,23 @@ function scoreBolaHijau() {
 
     audio.play();
 
-    if(newScore < 10) {
+    if(newScore < 20) {
         marq.setAttribute("scrollamount", "12");
         marq2.setAttribute("scrollamount", "10");
         marq3.setAttribute("scrollamount", "14");
-    } else if(newScore >= 10 && newScore < 20) {
+    } else if(newScore >= 20 && newScore < 40) {
         marq.setAttribute("scrollamount", "18");
         marq2.setAttribute("scrollamount", "20");
         marq3.setAttribute("scrollamount", "16");
-    } else if(newScore >= 20 && newScore < 30) {
+    } else if(newScore >= 40 && newScore < 70) {
         marq.setAttribute("scrollamount", "26");
         marq2.setAttribute("scrollamount", "22");
         marq3.setAttribute("scrollamount", "24");
-    } else if(newScore >= 20 && newScore < 30) {
+    } else if(newScore >= 70 && newScore < 80) {
         marq.setAttribute("scrollamount", "30");
         marq2.setAttribute("scrollamount", "28");
         marq3.setAttribute("scrollamount", "32");
-    } else if(newScore >= 30 && newScore < 40) {
+    } else if(newScore >= 80 && newScore < 100) {
         marq.setAttribute("scrollamount", "36");
         marq2.setAttribute("scrollamount", "38");
         marq3.setAttribute("scrollamount", "34");
